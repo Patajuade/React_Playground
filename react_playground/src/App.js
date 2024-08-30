@@ -1,13 +1,13 @@
 import './App.css';
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './pages/home';
-import Table from './pages/table';
+import Home from './pages/home/home';
+import Table from './pages/table/table';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div>
+      <header>
       <Router>
       <div>
         <nav>
