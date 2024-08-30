@@ -5,9 +5,9 @@ function Home(){
     return(
         <div>
             <h1>Page d'accueil</h1>
-            <Link to="/table">
-                <button>Aller à la Table</button>
-            </Link>
+            {/* <Link to="/table">
+                <button>Nurse management</button>
+            </Link> */}
         </div>
     )
 }
